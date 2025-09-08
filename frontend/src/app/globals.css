@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #171717;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-water-1: #acd1e3;
+  --color-water-2: #2a9fc3;
+  --color-water-3: #057b9f;
+  --color-water-4: #046381;
+  --color-water-5: #15262e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ededed;
+    --foreground: #0a0a0a;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10px) scale(var(--scale));
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) scale(var(--scale));
+    opacity: 0.2;
+  }
+}
+
+.animate-fall {
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
