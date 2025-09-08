@@ -1,0 +1,21 @@
+{
+  "stationId": "ABPO00MDG2440",
+  "stationLatitude": 12.733091,
+  "stationLongitude": 162.340645,
+  "stationElevation": 543.44,
+  "timestamp": 1757367515,
+  "zwdObservation": "24.41",
+  "satelliteAzimuth": 290,
+  "satelliteElevation": 29,
+  "totalObservations": 0,
+  "temperature": 28.8,
+  "pressure": 1010.7,
+  "humidity": 80,
+  "year": 2025,
+  "month": 9,
+  "day": 8,
+  "hour": 21,
+  "minute": 38,
+  "second": 35,
+  "dateString": "2025-09-08T21:38:35.000Z"
+}

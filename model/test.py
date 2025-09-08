@@ -163,21 +163,18 @@ if __name__ == "__main__":
     
     # Test coordinate interpolation (returns dict)
     print("\n1. Testing coordinate interpolation...")
-    result = unified_predictor((34.0522, -118.2437))  # LA coordinates
+    result = unified_predictor((25.5847, -246.7653))  # LA coordinates
     print("Coordinate interpolation result:")
     for key, value in result.items():
         print(f"  {key}: {value}")
 
-
-
-
     
-    # Test multiple coordinates (returns DataFrame)
-    print("\n2. Testing multiple coordinates...")
-    coords = [(34.0522, -118.2437), (40.7128, -74.0060)]  # LA and NYC
-    results = unified_predictor(coords)
-    print("Multiple coordinates results:")
-    print(results)  # This is a DataFrame, so we can print it directly
+    # # Test multiple coordinates (returns DataFrame)
+    # print("\n2. Testing multiple coordinates...")
+    # coords = [(34.0522, -118.2437), (40.7128, -74.0060)]  # LA and NYC
+    # results = unified_predictor(coords)
+    # print("Multiple coordinates results:")
+    # print(results)  # This is a DataFrame, so we can print it directly
     
 
 
@@ -222,7 +219,7 @@ if __name__ == "__main__":
 
 
 
-    
+
     print("\n4. Testing return type detection...")
     # Demonstrate how to handle different return types
     test_inputs = [

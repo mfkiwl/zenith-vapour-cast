@@ -1,0 +1,21 @@
+{
+  "stationId": "ABMF00GLP0090",
+  "stationLatitude": -61.820139,
+  "stationLongitude": 71.408773,
+  "stationElevation": 203.23,
+  "timestamp": 1757367856,
+  "zwdObservation": "20.30",
+  "satelliteAzimuth": 2,
+  "satelliteElevation": 53,
+  "totalObservations": 0,
+  "temperature": -5.6,
+  "pressure": 955.8,
+  "humidity": 86,
+  "year": 2025,
+  "month": 9,
+  "day": 8,
+  "hour": 21,
+  "minute": 44,
+  "second": 16,
+  "dateString": "2025-09-08T21:44:16.000Z"
+}
