@@ -34,7 +34,6 @@ app.use('/api/refresh-token', refreshtokenjs)
 // POST /api/pw/by/rinex -> pw-by.js
 // POST /api/pw/by/features -> pw-by.js
 // POST /api/pw/by/interpolation -> pw-by.js
-// POST /api/pw/by/error -> pw-by.js
 app.use('/api/pw/by', pwbyjs)
 
 

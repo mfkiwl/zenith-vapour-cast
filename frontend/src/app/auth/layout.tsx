@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Login | HexaHarvest",
+  title: "Login | ZenithVapourCast",
   description: "",
 };
 

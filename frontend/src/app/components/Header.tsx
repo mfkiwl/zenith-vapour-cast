@@ -74,6 +74,8 @@ export default function Header({div1Ref, homepage}:HeaderProps){
             <div className="h-full w-[60%] flex items-center justify-end z-[104] text-gray-100 font-medium text-[1.77vh] gap-[2.54vh]">
                 <span className="z-[104] hover:font-bold cursor-pointer" onClick={() => handleNavClick('about')}>About</span>
                 <span className="z-[104] hover:font-bold cursor-pointer" onClick={() => handleNavClick('team')}>Team</span>
+                <span className="z-[104] hover:font-bold cursor-pointer" onClick={() => router.push('/auth')}>Regional GNSS HeatMap</span>
+                <span className="z-[104] hover:font-bold cursor-pointer" onClick={() => router.push('/auth')}>PW Interference</span>
             </div>
             <div className="h-full w-auto p-[1vh] ml-[2vw] z-[108] flex items-center justify-center">
                 <motion.button whileHover={{ scale: 1.054 }} whileTap={{ scale: 0.97 }} transition={{ type: "spring", stiffness: 300, damping: 20 }}

@@ -32,7 +32,10 @@ export default function Footer(){
                 </Link>
                 <span className="z-4 text-[3vh] font-bold">ZenithVapourCast</span>
             </div>
-            <div className="h-full w-2/3 flex flex-col items-center justify-center pr-[7vw]">
+            <div className="h-full w-2/3 flex flex-col items-center justify-center pr-[7vw] z-6">
+                <span className="z-5 text-white text-[1.77vh] font-medium text-center">ZenithVapourCast turns raw GNSS observations into actionable tropospheric moisture intelligence by learning the relationship between zenith‑wet delay and precipitable water across regions and seasons.</span>
+                <span className="z-5 text-white text-[1.77vh] font-medium text-center">Built by weather‑curious engineers, it blends robust preprocessing, supervised models, and quality checks to surface PW alongside temperature, pressure, and humidity context on an interactive dashboard.</span>
+                <span className="z-5 text-white text-[1.77vh] font-medium text-center">The goal is simple: make atmospheric water vapour visible and useful for forecasters, researchers, and operations—without the data wrangling overhead.</span>
             </div>
 
             <div className="z-4 absolute h-[1vh] w-full bottom-[2vh]"><img src={`/bg_noise/black.png`} alt="" className="z-4 absolute h-full w-full object-cover"/></div>
